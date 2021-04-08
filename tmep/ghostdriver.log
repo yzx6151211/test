@@ -1,0 +1,19 @@
+[INFO  - 2021-02-04T05:25:50.848Z] GhostDriver - Main - running on port 64056
+[INFO  - 2021-02-04T05:25:51.510Z] Session [721ecf20-66a9-11eb-ad23-b58fc3399838] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2021-02-04T05:25:51.510Z] Session [721ecf20-66a9-11eb-ad23-b58fc3399838] - page.customHeaders:  - {}
+[INFO  - 2021-02-04T05:25:51.510Z] Session [721ecf20-66a9-11eb-ad23-b58fc3399838] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2021-02-04T05:25:51.510Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 721ecf20-66a9-11eb-ad23-b58fc3399838
+[ERROR - 2021-02-04T05:26:06.449Z] Session [721ecf20-66a9-11eb-ad23-b58fc3399838] - page.onError - msg: TypeError: undefined is not an object (evaluating 'top.document.addEventListener')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-02-04T05:26:06.449Z] Session [721ecf20-66a9-11eb-ad23-b58fc3399838] - page.onError - stack:
+  ot (https://qn.cache.wpscdn.cn/kdocs/js/chunk-61284fa3.e3712d90.js:7)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-02-04T05:26:06.482Z] Session [721ecf20-66a9-11eb-ad23-b58fc3399838] - page.onError - msg: Unhandled promise rejection TypeError: undefined is not an object (evaluating 't.createElement')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2021-02-04T05:26:06.482Z] Session [721ecf20-66a9-11eb-ad23-b58fc3399838] - page.onError - stack:
+  (anonymous function) (https://qn.cache.wpscdn.cn/kdocs/js/chunk-common.80879138.js:1)
+
+  phantomjs://platform/console++.js:263 in error

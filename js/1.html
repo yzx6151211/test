@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javaScript">
+
+        window.onload = function(){
+            var oinput1 = document.getElementById('input1');
+            var oinput2 = document.getElementById('input2');
+            var oinput3 = document.getElementById('input3');
+
+            var obtn = document.getElementById('btn');
+            obtn.onclick = function () {
+                     oinput3.value = parseInt(oinput1.value)+parseInt(oinput2.value)
+             }
+
+        }
+
+    </script>
+</head>
+<body>
+     <input type = "text"  value="" id = "input1">+
+     <input type = "text"  value="" id = "input2">=
+     <input type = "text"  value="" id = "input3">
+
+     <input type = "button" name = "" value="相加" id = "btn">
+
+</body>
+</html>
